@@ -76,7 +76,7 @@ $(document).ready(function () {
 
   $.ajax({
     cache:false,
-    url: "./assets/js/files.json",
+    url: "./assets/js/projects.json",
     dataType: "json",
     success: function (data) {
       let filteredProjects = () => {
