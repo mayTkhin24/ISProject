@@ -10,16 +10,27 @@ Add a new object to the array with the following structure:
 
 {
   "id": <next_sequential_id>,
+  
   "partner": "<Partner_Name>",
+  
   "year": "<Year_of_Project>",
+  
   "course": ["<Course_Code>"],
+  
   "representatives": ["<Representative_Name_1>", "<Representative_Name_2>"],
+  
   "students": ["<Student_Name_1>", "<Student_Name_2>", "..."],
+  
   "desc": "<Description_of_Project>",
+  
   "logo": "<Path_to_Logo_Image>",
+  
   "pdf": "<Path_to_Project_PDF>",
+  
   "sdg": ["<sdg_1>", "<sdg_2>", "..."],
+  
   "tech": ["<tech_1>", "<tech_2>", "..."]
+  
 }
 * Replace placeholders with actual project details. Ensure image paths and PDF paths are correct and files are uploaded to the server.
 
