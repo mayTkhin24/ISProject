@@ -2,8 +2,6 @@
 
 _To add a new project or filter option to the Projects page of your website, you will need to update both the projects.json file and potentially the projects.html file, depending on whether you're adding a new filter category. Below is a step-by-step guide on how to perform each action._
 
-**Adding a New Project**
-
 _1. Update projects.json:_
 Open projects.json in your preferred code editor.
 Add a new object to the array with the following structure:
